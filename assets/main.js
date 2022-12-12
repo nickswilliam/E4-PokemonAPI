@@ -65,13 +65,11 @@ const searchPokemon = async (e) => {
         showContainer();
         form.reset();
         return;
-        //renderizarlo en la tarjeta container
     } else if (!pokemonID) {
-        errorMessage('No hay pokemones para el ID ingresado.')
+        errorMessage('No hay pokemones para el ID ingresado')
         showContainer();
         form.reset();
         return;
-        //renderizarlo en la tarjeta container
     } else {
         pokemonPrint = [pokemonID]
         showContainer();
@@ -79,8 +77,6 @@ const searchPokemon = async (e) => {
         form.reset();
         return
     }
-
-
 }
 
 function init() {
