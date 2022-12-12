@@ -30,14 +30,14 @@
     text-shadow: 2px 0px 8px #3333ff;
     color: #fff64e;
     font-family: 'Pokemon Solid', sans-serif;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
 }
 
 .container-info p{
     font-size: 26px;
     color: orange;
     font-weight: 600;
-    text-shadow: 1px 0 2px #3333ff;
+    text-shadow: 1px 0 2px #00005985;
     text-align: center;
 }
 
@@ -45,7 +45,7 @@
     display: flex;
     justify-content: center;
     gap: 20px;
-    background-color: rgba(127, 255, 212, 0.085);
+    background-color: rgba(0, 17, 255, 0.266);
     backdrop-filter: blur(5px);
     padding: 20px 30px;
     border-radius: 15px;
@@ -56,7 +56,7 @@
 .input-content{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
     border: 2px solid #006ec3;
     border-radius: 10px;
 }
@@ -78,17 +78,16 @@
 .input-content i{
     font-size: 18px;
     color: #006ec3;
-    background-color: #9f9c9c5a;
-    border-left: 3px solid #006ec3;
+    border-left: 2px solid #006ec3;
     padding: 10px;
-    height: 101%;
+    height: 100%;
 }
 
 #form button{
-    border: 2px solid orange;
+    border: 2px solid #3333ff;
     border-radius: 10px;
     padding: 12px 20px;
-    background-color: #e8ff93;
+    background-color: #fff64e;
     color: #252525;
     font-size: 18px;
     cursor: pointer;
