@@ -103,6 +103,7 @@
     border-radius: 20px;
     padding: 20px 30px;
     box-shadow: -8px 10px 5px #2b2a2a68;
+    flex-wrap: wrap;
 }
 
 .pokemon-name-img{
