@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon - Search</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/5/51/Pokebola-pokeball-png-0.png">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="container-info">
+            <h1>Bienvenid@ a la APP de busqueda de Pokemones</h1>
+            <p>Por favor ingrese un número de ID para encontrar un Pokemon</p>
+        </div>
+
+        <form id="form">
+            <div class="input-content">
+                <input type="number" name="number" id="number-input" placeholder="Ingrese un número de Pokemón">
+                <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+            </div>
+
+            <button type="submit">Buscar</button>
+        </form>
+
+        <div class="pokemon-container">
+
+        </div>
+    </div>
+
+
+    <script src="./assets/request.js"></script>
+    <script src="./assets/main.js"></script>
+</body>
+
+</html>
